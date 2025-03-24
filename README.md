@@ -6,6 +6,21 @@ Convert Project Gutenberg books to high-quality audiobooks using AI text-to-spee
 
 This project provides tools to transform public domain books from Project Gutenberg into professional-quality audiobooks. It handles the entire process from downloading and cleaning the text to generating and processing audio files.
 
+## Audio Samples
+
+Listen to these sample audiobook chapters generated with different TTS engines:
+
+- **OpenAI TTS Sample**: [Chapter 1 of "A Lady's Captivity Among Chinese Pirates" by Fanny Loviot](https://drive.google.com/file/d/141xn8SJgpYraJJZAXIwFERzZ7jpnmuFf/view?usp=sharing)  
+  *Generated using OpenAI's gpt-4o-mini-tts model with the "coral" voice*
+- **Kokoro TTS Sample**: [Chapter 1 of "A Lady's Captivity Among Chinese Pirates" by Fanny Loviot](https://drive.google.com/file/d/1CE310UgOmIQLzracZWWqESnaCp62eVhZ/view?usp=sharing)  
+  *Generated using Kokoro TTS with the "af_heart" voice*
+- **Original Text**: [Read the complete book on Project Gutenberg](https://www.gutenberg.org/ebooks/34167)
+
+### Try the TTS Models
+
+- **OpenAI TTS**: Try the gpt-4o-mini-tts model yourself at [OpenAI.fm](https://www.openai.fm/)
+- **Kokoro TTS**: Experiment with Kokoro TTS at [Hugging Face Space](https://huggingface.co/spaces/hexgrad/Kokoro-TTS)
+
 ## Features
 
 - **Automated Book Processing**: Download and clean books from Project Gutenberg
@@ -97,9 +112,9 @@ books/
 ## Cost Estimation
 
 When using OpenAI's models, the approximate costs are:
-- **Audio Generation**: ~€1 per hour of audio using gpt-4o-mini-tts
-- **Text Processing**: ~€1 for text analysis and preparation with o3-mini
-- **Total**: ~€2 per hour of audiobook
+- **Audio Generation**: ~€1.50 per hour of audio using gpt-4o-mini-tts
+- **Text Processing**: ~€1.50 for text analysis and preparation with o3-mini
+- **Total**: ~€3 per hour of audiobook
 
 For reference, one hour of audio corresponds to approximately 60,000 characters of text.
 
